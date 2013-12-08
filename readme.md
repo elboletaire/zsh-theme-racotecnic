@@ -10,6 +10,22 @@ Installing
 
 As oh-my-zsh is not accepting more themes right now, you will need to manually download and install the theme in your themes folder.
 
+If you use oh-my-zsh you can do...
+
+```bash
+# using CURL
+curl -L https://github.com/elboletaire/zsh-theme-racotecnic/raw/master/racotecnic.zsh-theme > ~/.oh-my-zsh/themes/racotecnic.zsh-theme
+# using wget
+wget -O ~/.oh-my-zsh/themes/racotecnic.zsh-theme https://github.com/elboletaire/zsh-theme-racotecnic/raw/master/racotecnic.zsh-theme
+```
+
+After that simply change the `ZSH_THEME` value to `racotecnic`:
+
+```bash
+# ~/.zshrc
+ZSH_THEME="racotecnic"
+```
+
 The Prompt
 ----------
 
