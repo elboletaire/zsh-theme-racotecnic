@@ -49,7 +49,8 @@ The status summary has the following format:
  * `-` = Removed files
  * `!` = Conflicted files
  * As in `git status`, index status is dark green and working directory status is dark red
-* An asterisk `*` represents stashed changes
+* The trailing `*` represents stashed changes
+* The trailing `!` means there are untracked files
 
 Based on work by
 ----------------
