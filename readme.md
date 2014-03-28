@@ -36,7 +36,7 @@ The prompt is similar to the posh-git prompt with two little differences:
 
 The status summary has the following format:
 
-    [{HEAD-name} +A ~B -C !D | +E ~F -G !H *]
+    [{HEAD-name} +A ~B -C !D | +E ~F -G !H ! *]
 
 * `{HEAD-name}` is the current branch, or the SHA of a detached HEAD
  * Blue means the branch matches its remote
