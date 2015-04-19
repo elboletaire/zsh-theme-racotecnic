@@ -30,7 +30,7 @@ ZSH_THEME="racotecnic"
 
 ## zgen
 
-Add `zgen load elboletaire/zsh-theme-racotecnic` to your zgen load list and regenerate init.zsh with `zgen save`
+If you're using [zgen](https://github.com/tarjoilija/zgen), you can add `zgen load elboletaire/zsh-theme-racotecnic` to your zgen load list and regenerate init.zsh with `zgen save`. Zgen will take care of cloning the repository for you automatically.
 
 The Prompt
 ----------
