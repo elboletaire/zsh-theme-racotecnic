@@ -10,6 +10,8 @@ Installing
 
 As [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is not accepting more themes right now, you will need to manually download and install the theme in your themes folder.
 
+## oh-my-zsh
+
 If you use oh-my-zsh you can do...
 
 ```bash
@@ -25,6 +27,10 @@ After that simply change the `ZSH_THEME` value to `racotecnic`:
 # ~/.zshrc
 ZSH_THEME="racotecnic"
 ```
+
+## zgen
+
+Add `zgen load elboletaire/zsh-theme-racotecnic` to your zgen load list and regenerate init.zsh with `zgen save`
 
 The Prompt
 ----------
